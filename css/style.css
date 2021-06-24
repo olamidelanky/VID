@@ -415,7 +415,7 @@ color:#fff;
 
 .main-heading
 {
-   background: url(../images/main.jpg) center center no-repeat;
+   background: url(../images/main.mp4) center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 	color: #cfcfcf;
@@ -957,3 +957,12 @@ font-family: 'Roboto Slab', serif;
     100% { opacity: 0; }
 }
 
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

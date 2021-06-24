@@ -35,6 +35,8 @@ VERSION : 1.1
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" type="text/css" href="css/color/rose.css">
   <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="form.css" >
+  <script src="form.js"></script>
 
 </head>
 
@@ -93,8 +95,13 @@ VERSION : 1.1
 
     <!-- [/MAIN-HEADING]
  ============================================================================================================================-->
+ 
+
     <section class="main-heading" id="home">
       <div class="overlay">
+        <video autoplay muted loop id="myVideo">
+          <source src="images/main.mp4" type="video/mp4">
+        </video>
         <div class="container">
           <div class="row">
             <div class="main-heading-content col-md-12 col-sm-12 text-center">
@@ -171,13 +178,11 @@ VERSION : 1.1
 
 
     <body class="body2">
-      <!-- horizontal -->
-
       <h4>...</h4>
       <div class="flip">
         <div class="front"
-          style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-          <h1 class="text-shadow">Integrity</hi>
+          style="background-image: url('images/integrity.jpg')">
+          <h1 class="text-shadow"><br> Integrity</hi>
         </div>
         <div class="back">
           <h2><br></h2>
@@ -189,25 +194,43 @@ VERSION : 1.1
           </p>
         </div>
       </div>
+
       <div class="flip">
         <div class="front"
-          style="background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-          <h1 class="text-shadow">Innovative</hi>
+          style="background-image: url('images/userstory.jpg')">
+          <h1 class="text-shadow"><br> User story centered</hi>
         </div>
         <div class="back">
           <h2><br></h2>
           <p>
             <ul>
+              <li>Being open and transparent</li>
+              <li>Giving respects in all aspects</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+            <div class="flip">
+        <div class="front"
+          style="background-image: url('images/innovation.jpg')">
+          <h1 class="text-shadow"><br> Innovative</hi>
+        </div>
+        <div class="back">
+          <h2><br></h2>
+          <p>
+            <ul>  
               <li>Fresh with new ideas</li>
               <li>Bringing new ideas to life</li>
             </ul>
           </p>
         </div>
       </div>
+
       <div class="flip">
         <div class="front"
-          style="background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-          <h1 class="text-shadow">Efficiency</hi>
+          style="background-image: url('images/efficiency.jpg')">
+          <h1 class="text-shadow"> <br> Efficiency</hi>
         </div>
         <div class="back">
           <h2><br></h2>
@@ -220,27 +243,7 @@ VERSION : 1.1
         </div>
       </div>
 
-      <br>
-      <br>
-
-      <!-- vertical -->
-
-      <h4>...</h4>
-      <div class="flip flip-vertical">
-        <div class="front"
-          style="background-image: url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-          <h1 class="text-shadow">User Story Centered</hi>
-        </div>
-        <div class="back">
-          <h2><br></h2>
-          <p>
-            <ul>
-              <li>Being empathetic to users needs</li>
-              <li>Inspiring greater imagination</li>
-            </ul>
-          </p>
-        </div>
-      </div>
+         
     </body>
 
 
@@ -321,77 +324,7 @@ VERSION : 1.1
 
     <!-- [OUR TEAM]
  ============================================================================================================================-->
-    <section class="our-team white-background black" id="three">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h3 class="title">Our <span class="themecolor">Partners</span></h3>
-            <p class="a-slog">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget
-              dolor in tashin ty</p>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-sm-3">
-            <img src="images/team-1.jpg" alt="team-member" class="img-responsive">
-            <h4>Ramshad Smith</h4>
-            <h5>Founder</h5>
-            <p>Hey, I’m Johm Smith residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-
-          <div class="col-sm-3">
-            <img src="images/team-1.jpg" alt="team-member" class="img-responsive">
-            <h4>Meera Deo</h4>
-            <h5>Web Designer</h5>
-            <p>Hey, I’m Meera Deo residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-
-          <div class="col-sm-3">
-            <img src="images/team-1.jpg" alt="team-member" class="img-responsive">
-            <h4>Ramkumar Deo</h4>
-            <h5>Manager</h5>
-            <p>Hey, I’m Ramkumar Deo residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-
-          <div class="col-sm-3">
-            <img src="images/team-1.jpg" alt="team-member" class="img-responsive">
-            <h4>Antony Kovalsky</h4>
-            <h5>Graphic Designer</h5>
-            <p>Hey, I’m Antony Kovalsky residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-        </div> <!-- end row -->
-
-        <div class="row margin-top">
-          <div class="col-md-12 text-center">
-            <a href="#" class="btn btn-custom theme_background_color ">contact us</a>
-          </div> <!-- /col -->
-        </div> <!-- /row -->
-
-      </div>
-    </section>
+    
 
     <!-- [/OUR TEAM]
  ============================================================================================================================-->
