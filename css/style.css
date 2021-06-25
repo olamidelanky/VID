@@ -414,7 +414,11 @@ color:#fff;
        
 /*	MAIN HEADING
 ------------------------------*/
-
+.middle{
+    position: relative;
+    left: 170px;
+    padding: 30px;
+}
 
 
 .main-heading
@@ -499,7 +503,9 @@ p.lead
 -------------------------------------------------------*/
 .aboutus>.container
 {
-    padding:60px 0px;
+    padding:20px 0px;
+    margin-bottom: -100px;
+    
   
 }
 
@@ -704,7 +710,7 @@ p.lead
 /*	STATS
 ------------------------------*/
 .our-stats {
-    background: #35434f;
+    background: #000;
 }
 
 .our-stats>.container
@@ -740,12 +746,12 @@ p.lead
     padding:60px;
 }
 
-.nim-service i.fa {
+.nim-service span {
 	float: left;
 	font-size:1.6em;
 	width: 70px;
         height:70px;
-        background:#000;
+        background:rgba(255, 255, 255, 0);
         border-radius:50%;
         color:#fff; 
         text-align: center;
