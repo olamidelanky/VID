@@ -105,6 +105,11 @@ font-family: 'Open Sans', sans-serif;
 font-size:0.93em;
 }
 
+.first-image{
+    height: 250px;
+    width: 370px;
+}
+
 
 a{ 
   text-decoration: none !important;
