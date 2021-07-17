@@ -367,7 +367,7 @@ div.preloader {
 
 /* Navigation */
 .nim-menu {
-  padding: 5px;
+  padding: 10px;
   transition: all 0.8s;
   background: rgb(0, 0, 0);
   border-bottom: none;
